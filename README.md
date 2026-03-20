@@ -311,3 +311,27 @@ openclaw devices approve <requestId>
 **对话没有任何响应** — 运行 `openclaw gateway call health`，查看 `agents` 数组中是否有活跃 agent。
 
 **重启浏览器后需要重新配对吗？** — 不需要。设备身份存储在 `IndexedDB`，清除浏览器数据才需要重新配对。
+
+---
+
+## License
+
+This project is licensed under the Apache License 2.0 - see the [LICENSE](LICENSE) file for details.
+
+```
+Apache License 2.0
+
+Copyright (c) 2026 OpenClaw Contributors
+
+Licensed under the Apache License, Version 2.0 (the "License");
+you may not use this file except in compliance with the License.
+You may obtain a copy of the License at
+
+    http://www.apache.org/licenses/LICENSE-2.0
+
+Unless required by applicable law or agreed to in writing, software
+distributed under the License is distributed on an "AS IS" BASIS,
+WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+See the License for the specific language governing permissions and
+limitations under the License.
+```
